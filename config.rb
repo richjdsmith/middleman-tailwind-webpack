@@ -33,7 +33,7 @@ configure :build do
   activate :directory_indexes
   activate :favicon_maker, icons: generate_favicons_hash
   activate :gzip
-  # activate :minify_html
+  activate :minify_html
   activate :images do |images|
     # Optimize images (default: false)
     images.optimize = true
