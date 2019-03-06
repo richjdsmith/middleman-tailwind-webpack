@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <%= auto_display_meta_tags %>
+    <%= auto_display_favicon_tags if build? %>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
+  </head>
+  <body class="">
+    <%= yield %>
+  </body>
+</html>

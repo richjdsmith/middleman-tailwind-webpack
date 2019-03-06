@@ -1,0 +1,22 @@
+name: 'Middleman Tailwind Webpack'
+description: 'An opinionated and ready-to-use Middleman 4 template with TailwindCSS and Webpack Preconfigured'
+host: 'https://nobullco.com'
+keywords: 'middleman, tailwind, tailwindcss, template, yarn, webpack, babel, eslint, scss'
+thumbnail: 'banner.jpg'
+favicon: '_favicon.svg'
+base_color: '#FBC547'
+repository: 'https://github.com/richjdsmith/middleman-tailwind'
+license: 'MIT'
+geocoding:
+  place: 'Salmon Arm, Canada'
+  latitude: '50.701777'
+  longitude: '-119.281544'
+  region: 'BC-CA'
+author:
+  name: 'Rich Smith'
+  email: 'iam@richjdsmith.ca'
+  phone: '+1-250-833-6512'
+  website: 'https://nobullco.com'
+  # Available social media tags: bitbucket dribbble facebook github gitlab instagram linkedin medium twitter
+  github: 'richjdsmith'
+  twitter: 'richjdsmith'
