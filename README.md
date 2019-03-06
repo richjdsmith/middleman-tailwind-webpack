@@ -9,4 +9,7 @@ On a different note, this package is definitely opinionated. I have installed al
 If you don't want that and just want the webpack.config.js, feel free to rip it out.
 
 ### Credits
+
 Massive thanks to the work done by [gabrielecanepa](https://github.com/gabrielecanepa) and his work on his [middleman-webpack template](https://github.com/gabrielecanepa/middleman-webpack). It was a major help putting together this project and wouldn't have been possible without his help.
+
+Looking through [arandilopez's](arandilopez/arandilopez.me) repo for his personal site ([https://github.com/arandilopez/arandilopez.me](https://github.com/arandilopez/arandilopez.me)) was very helpful as well.
