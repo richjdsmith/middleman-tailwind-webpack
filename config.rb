@@ -44,6 +44,7 @@ configure :build do
                     sitemap: File.join(@app.data.site.host, 'sitemap.xml')
 end
 activate :meta_tags
+activate :inline_svg
 activate :external_pipeline,
          name: :webpack,
          command: build? ? 'yarn run build' : 'yarn run start',
