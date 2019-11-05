@@ -28,7 +28,8 @@
     "postcss-purgecss": "^1.0.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
-    "tailwindcss": "^0.7.4",
+    "tailwind-css-variables": "^2.0.3",
+    "tailwindcss": "^1.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3"
   },
