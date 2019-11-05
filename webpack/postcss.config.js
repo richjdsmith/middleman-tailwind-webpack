@@ -9,12 +9,12 @@ class TailwindExtractor {
 
 const DEV_PLUGINS = [
   require('postcss-import')(),
-  tailwindcss('./tailwind.js'),
+  tailwindcss('./tailwind.config.js'),
   require('autoprefixer')()
 ]
 const PROD_PLUGINS = [
   require('postcss-import')(),
-  tailwindcss('./tailwind.js'),
+  tailwindcss('./tailwind.config.js'),
   require('autoprefixer')(),
   require('postcss-purgecss')({
     content: [
